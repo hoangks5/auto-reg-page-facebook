@@ -18,7 +18,7 @@ for i in range(1):
     brower.get('https://facebook.com/login')
 
     user = brower.find_element_by_id("email")
-    user.send_keys("0358259167")
+    user.send_keys("0358259xxx")
     passwd = brower.find_element_by_id("pass")
     passwd.send_keys("matkhau")
     passwd.send_keys(Keys.ENTER)
@@ -64,7 +64,7 @@ for i in range(1):
     brower1 = driver1
     brower1.get('https://facebook.com/login')
     user1 = brower1.find_element_by_id("email")
-    user1.send_keys("0562978597")
+    user1.send_keys("0562978xxx")
     passwd1 = brower1.find_element_by_id("pass")
     passwd1.send_keys("matkhau")
     passwd1.send_keys(Keys.ENTER)
